@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Shop</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+.box-part {
+	background-color: rgb(234, 228, 228);
+	padding: 60px 10px;
+	margin: 10px 0px;
+    border-radius: 8px;
+}
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.image-container {
+    max-width: 100%; 
+    height: auto; 
+    overflow: hidden;
+    display: block; 
+}
+.image-container img {
+    border-radius: 8px;
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+.logo img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 50%;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container"><div class="logo">
+        <img src="logo.jpeg" alt="Company Logo">
+    </div>
+      <a class="navbar-brand" href="#">Online Shop</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Cart</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#" style="border:solid;">Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="box-part text-center">
+                   <h4>The place where you can get everything in seconds</h4>
+                    <p>
+                        <div class="row justify-content-center mt-3">
+                            <div class="col-md-6">
+                              <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search item here...">
+                                <div class="input-group-append">
+                                  <button class="btn btn-outline-secondary" type="button">Search</button>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </p>
+                </div>
+            </div>   
+        </div>
+        <div class="row">
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <div class="box-part text-center">
+                    <h4><a href="#">Clothing & Accessories</a></h4>
+                   <p> <div class="image-container"><img src="cloth.jpg" alt="Clothing, Shoes & Accessories"></div></p>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <div class="box-part text-center">
+                    <h4><a href="#">Electronics & Gaming Items</a></h4>
+                    <p><div class="image-container"><img src="gaming.jpg" alt="Electronics & Gaming"></div></p>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <div class="box-part text-center">
+                    <h4><a href="#">Health & Beauty Products</a></h4>
+                    <p><div class="image-container"><img src="beauty.jpg" alt="Health & Beauty Products"></div></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <footer>
+    <div class="footer-container">
+        <p>&copy; 2024 Your Website. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
